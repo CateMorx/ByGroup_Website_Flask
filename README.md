@@ -1,16 +1,5 @@
 # Website_Python_Flask
-This repository holds both python file and html file for a website containing majority of my programs. The program is a simple web application built using Flask, a web framework for Python.
-
-
-# Features
-- Navigation: Users can navigate between different sections of the website (Home, Profile, Works, Contact, toUpperCase, Area of a Circle, and Area of a Triangle).
-- Profile Information: The profile page displays information about the user.
-- Works: Provides links to different works, including a "toUpperCase" function.
-- Contact Information: The contact page displays contact details.
-- ToUpperCase Function: converts all lower case to uppercase
-- Area of a Circle Function: Computes the area of a circle with the given radius
-- Area of a Triangle Function: Computes the area of a triangle with the given base and height
-
+This repository holds the program for the website. The website serves as a portfolio for all of the Lab Activities conducted in the entirety of the semester in the subject Data Structures and Algorithms (DSA)
 
 # Requirements
 
