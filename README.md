@@ -1,5 +1,5 @@
 # Website_Python_Flask
-This repository holds the program for the website. The website serves as a portfolio for all of the Lab Activities conducted in the entirety of the semester in the subject Data Structures and Algorithms (DSA)
+This repository holds the program for the website. The website serves as a portfolio for all of the Group Lab Activities conducted in the entirety of the semester in the subject Data Structures and Algorithms (DSA)
 
 # Requirements
 
