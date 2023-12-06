@@ -39,7 +39,7 @@ to check if pip was installed.
 # Running the program
 1. Clone the repository:
     ```bash
-    git clone 'https://github.com/CateMorx/Website_Python_Flask.git'
+    git clone 'https://github.com/CateMorx/ByGroup_Website_Flask.git'
     ```
 2. Open the folder containing the repository
 3. Execute the command to run the program:
