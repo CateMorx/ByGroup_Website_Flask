@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home Page</title>
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='images/web-link.png')}}">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-image: url("{{ url_for('static', filename='images/Usign-Gradients-Featured-Image.png') }}");
+        }
+        @keyframes fadeInAnimation {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+        h1 {
+            color: #ffffff;
+            animation: fadeInAnimation 2s ease-in;
+        }
+        h2 {
+            color: #000C5A;
+        }
+        p {
+            color: #fefefe;
+            font-size: 18px;
+            margin: 10px 0;
+            animation: fadeInAnimation 2s ease-in;
+        }
+        #header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: #17278E; 
+            color: white;
+        }
+        #header a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+        nav li {
+            margin-right: 20px;
+        }
+        nav a {
+            text-decoration: underline;
+            color: white;
+            font-weight: bold;
+        }
+        nav a:visited {
+            color: white;
+            text-decoration: underline;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin: 10px 0;
+        }
+        li a {
+            text-decoration: underline;
+            color: blue;
+            font-weight: bold;
+        }
+        li a:visited {
+            color: purple;
+            text-decoration: underline;
+        }
+        #container {
+            display: inline-block;
+            text-align: center;
+            margin: 50px auto;
+            padding: 20px;
+            border: 2px solid #ddd;
+            width: 20%;
+            background-color: rgba(255, 255, 255, 0.5);
+            animation: fadeInAnimation 2s ease-in;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <a href="/" title="Home Page" ></a>
+        <nav>
+            <ul>
+                <li><a href="/profile">Profile</a></li>
+                <li><a href="/works">Works</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <h1>Welcome to Our Website</h1>
+    <div id="container">
+        <h2>Lab Activities</h2>
+
+        <ul>
+            <li><a href="/SearchAlgo">Lab Activity 1: Search Algorithms</a></li>
+
+        </ul>
+    </div>
+</body>
+</html>

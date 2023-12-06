@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Convert to Uppercase</title>
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='images/web-link.png')}}">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-image: url("{{ url_for('static', filename='images/Usign-Gradients-Featured-Image.png') }}");
+        }
+        @keyframes fadeInAnimation {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+        #header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: #17278E; 
+            color: white;
+        }
+        #header a {
+            text-decoration: none;
+            color: white;
+        }
+        .home-link {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            background-image: url("{{ url_for('static', filename='images/home.png') }}");
+            background-size: cover;
+        }
+        nav {
+            display: flex;
+            align-items: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+        nav li {
+            margin-right: 20px;
+        }
+        nav a {
+            text-decoration: underline;
+            color: white;
+            font-weight: bold;
+        }
+        nav a:visited {
+            color: white;
+            text-decoration: underline;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin: 10px 0;
+        }
+        li a {
+            text-decoration: underline;
+            color: blue;
+            font-weight: bold;
+        }
+        li a:visited {
+            color: purple;
+            text-decoration: underline;
+        }
+        #work-link {
+            background-color: #000944;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        p {
+            color: #000944;
+            font-size: 18px;
+            margin: 10px 0;
+            animation: fadeInAnimation 2s ease-in;
+        }    
+        h1 {
+            color: #ffffff;
+            animation: fadeInAnimation 2s ease-in;
+        }
+        form {
+            animation: fadeInAnimation 2s ease-in;
+            margin: 20px 0;
+        }
+        label {
+            color: #ffffff; 
+            display: block;
+            margin: 10px 0;
+        }
+        p {
+            color: #fefefe;
+            font-size: 18px;
+            margin: 10px 0;
+            animation: fadeInAnimation 2s ease-in;
+        }
+        #text-container {
+            display: inline-block;
+            padding: 20px;
+            border: 1px solid #ddd;
+            margin-top: 20px;
+            text-align: left;
+            position: relative;
+            background-color: rgba(255, 255, 255, 0.5);
+            animation: fadeInAnimation 2s ease-in;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="header">
+        <a href="/" title="Home Page" class="home-link"></a>
+        <nav>
+            <ul>
+                <li><a href="/profile">Profile</a></li>
+                <li id="work-link"><a href="/works">Works</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="text-container">
+        <h2>Works</h2>
+    </div>
+</body>
+</html>
